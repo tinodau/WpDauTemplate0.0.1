@@ -1,0 +1,354 @@
+/*
+  Theme Name : dautemplate
+  Author : TinoDau
+  Author URL : fb.com/tino.daulat
+  Version : 0.1
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+a:link,
+a:visited {
+  color: #006ec3;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.65;
+}
+
+
+
+/* General Layout */
+div.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*CONTENT AREA*/
+article.post {
+  border-bottom: 2px dotted #bbb;
+}
+
+article.post:last-of-type{
+  border-bottom: none;
+}
+
+/*ASIDE STYLE*/
+aside.post-aside,
+aside.post-link {
+   font-size: 120%;
+   background-color: #f4e2a4;
+   padding: 10px;
+   border-radius: 3px;
+   box-shadow: 3px 3px 3px rgb(0, 0, 0, .1);
+}
+
+.mini-meta {
+   font-size: 70%;
+   color: #777;
+   margin: 0;
+}
+
+/*LINK POST FORMAT*/
+article.post-link {
+   padding: 0;
+   background-color: #dfedf7;
+   margin-bottom: 10px;
+   border-bottom: none;
+}
+
+article.post-link a {
+   display: block;
+   padding: 10px;
+   text-decoration: underline;
+}
+
+
+/*GALLERY POST FORMAT*/
+article.post-gallery {
+   background: #333;
+   color: #fff;
+   padding: 10px;
+   border-bottom: none;
+   margin-bottom: 10px;
+   border-radius: 3px;
+}
+
+article.post-gallery h2 {
+   text-align: center;
+}
+
+article.post-gallery img {
+   border: none!important;
+}
+
+/*NAVIGATION MENU*/
+.site-nav ul{
+   margin: 0;
+   padding: 0;
+}
+
+.site-nav ul:before,.site-nav ul:after {
+   content: "";
+   display: table;
+}
+
+.site-nav ul:after {
+   clear: both;
+}
+
+.site-nav ul {
+   *zoom: 1;
+}
+
+.site-nav ul li {
+   list-style: none;
+   float: left;
+}
+
+
+/*HEADER*/
+.site-header {
+   border-bottom: 1px solid #ccc;
+   margin-bottom: 15px;
+}
+
+.site-header h1 {
+   margin: 0;
+}
+
+.site-header h1 a:link,
+.site-header h1 a:visited {
+   text-decoration: none;
+}
+
+.site-header h5 {
+   margin: 0;
+   margin-bottom: 20px;
+}
+
+
+
+/*SITE HEADER MENU*/
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+   display: block;
+   padding: 10px 15px;
+   text-decoration: none;
+   border: 1px solid #eee;
+   border-bottom: none;
+}
+
+.site-header nav ul li a:hover {
+   background-color: #ececec;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link,
+.site-header nav ul li.current-page-ancestor a:visited {
+   font-weight: bold;
+   background-color: #006ec3;
+   color: #fff;
+}
+
+
+/*MAIN COLUMN*/
+.main-column {
+   width: 66%;
+   float: left;
+}
+
+
+/*SIDE COLUMN*/
+.secondary-column {
+   width: 30%;
+   float: right;
+}
+
+
+/*FOOTER WIDGET AREA*/
+.footer-widget-area {
+   width: 25%;
+   float: left;
+   padding-left: 40px;
+   bo
+}
+
+/*Footer*/
+.site-footer {
+  margin-top: 30px;
+  border-top: 2px solid #999;
+}
+
+
+/*FOOTER MENU*/
+.site-footer {
+   margin-top: 30px;
+   border-top: 1px solid #ddd;
+   font-size: 84%;
+}
+
+/*FOOTER NAV MENU*/
+.site-footer nav {
+   margin: 30px 0 10px 0;
+}
+
+.site-footer nav ul li{
+   margin-right: 10px;
+   padding-right: 10px;
+   border-radius: : 1px dotted #ddd;
+}
+
+.site-footer nav ul li:last-of-type{
+   border-right: none;
+}
+
+
+/*PAGE LAYOUT*/
+article.page h2 {
+   font-size: 225%;
+   margin-bottom: 15px;
+}
+
+
+/*CLEARFIX*/
+.clearfix:before, .clearfix:after {
+   content: "";
+   display: table;
+}
+
+.clearfix::after {
+   clear: both;
+}
+
+.clearfix {
+   *zoom : 1;
+}
+
+
+/*TWO COLUMN TITLE LAYOUT*/
+div.title-column {
+   width: 30%;
+   float: left;
+}
+
+div.text-column {
+   width: 70%;
+   float: right;
+}
+
+
+
+/*INFO BOX STYLES*/
+div.info-box {
+   width: 30%;
+   float: right;
+   margin: 0 0 30px 30px;
+   padding: 20px;
+   background-color: #Eee;
+}
+
+div.info-box h4 {
+   margin-bottom: 6px;
+}
+
+div.info-box p {
+   font-size: 85%;
+}
+
+
+/*CHILDREN LINKS*/
+.children-links {
+   margin-bottom: 20px;
+   font-size: 80%;
+}
+
+.children-links li {
+   margin-right: 20px;
+}
+
+.children-links .parent-link {
+   float: left;
+   margin-right: 20px;
+   padding-right: 20px;
+   border-right: 1px solid #ddd;
+   font-size: 120%;
+   font-weight: bold;
+}
+
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited {
+   color: #333;
+}
+
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited{
+   border-bottom: 1px solid #DDD;
+   color: #333;
+   cursor: default;
+}
+
+
+
+/*POST STYLE*/
+.post h2 {
+   margin-bottom: 0;
+}
+
+p.post-info {
+   font-size: 85%;
+   color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+   color: #0000;
+}
+
+
+/*IMAGE STYLES*/
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+.has-thumbnail {
+   position: relative;
+   padding-left: 200px;
+}
+
+.post-thumbnail {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+
+/*SEARCH*/
+.header-search {
+   float: right;
+}
+
+.header-search #searchsubmit {
+   background-color: #1c8eb8;
+   font-weight: bold;
+   color: #fff;
+   padding: 5px 5px;
+   border: none;
+   vertical-align: top;
+}
+
+.header-search #s {
+   vertical-align: top;
+   padding: 3px 0;
+}
